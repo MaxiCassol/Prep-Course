@@ -13,6 +13,10 @@ function crearGato (nombre, edad) {
       return "Meow";
     }
   }
+  gato = new objeto{
+    nombre: Charly,
+    edad: 8
+  } 
 }
 
 function agregarPropiedad (objeto, property) {

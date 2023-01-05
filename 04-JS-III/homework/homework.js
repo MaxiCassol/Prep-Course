@@ -75,7 +75,7 @@ function arrayContiene(array, elemento) {
     }else {
       return false
     }
-  return array.(elemento);
+  return array.elemento;
 }
 
 
