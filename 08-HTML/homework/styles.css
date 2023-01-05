@@ -1,0 +1,41 @@
+h1 {
+    color: lightblue;
+}
+
+img {
+    width: 400px;
+}
+
+#thirdDiv {
+    height: 600px;
+    width: 500px;
+    background: grey;
+    padding: 50px;
+    padding-bottom: 500px ;
+    border: 4px solid darkgray;
+    margin: 0 auto;
+}
+
+#divClass {
+    margin: 0 auto;
+}
+
+#spanId {
+    font-size: 18px;
+    margin: 50px;
+}
+
+html {
+    background-image: url("https://aguabites.com/wp-content/uploads/2022/06/imagen-destacada.jpg");
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+body{
+    margin: 0 auto;
+}
+
+head {
+    margin: 0 auto;
+}
