@@ -6,17 +6,14 @@ function crearGato (nombre, edad) {
   // Agrega un método (funcion) llamado "meow" que devuelva el string "Meow!"
   // Devuelve el objeto
   // Tu código:
-  objeto = {
+  var objeto = {
     nombre: nombre,
     edad: edad,
     meow: function meow(){
-      return "Meow";
+      return "Meow!";
     }
-  }
-  gato = new objeto{
-    nombre: Charly,
-    edad: 8
-  } 
+  };
+  return objeto;
 }
 
 function agregarPropiedad (objeto, property) {
@@ -135,7 +132,7 @@ function sumarLikesDeUsuario (usuario) {
   // Devuelve la suma
   // Tu código:
   suma = 0;
-  for(i=0; i<posts.length; i++){
+  for(i=0; i<usuario.posts.length; i++){
     suma = suma + usuario.posts[i].likes
   };
   return suma;

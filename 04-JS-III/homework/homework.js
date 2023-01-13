@@ -3,21 +3,21 @@
 function devolverPrimerElemento(array) {
   // Devuelve el primer elemento de un  array (pasado por parametro)
   // Tu código:
-  console.log(array[0]);
+  return array[0]
 }
 
 
 function devolverUltimoElemento(array) {
   // Devuelve el último elemento de un array
   // Tu código:
-  console.log(array[array.length -1]);
+  return array[array.length - 1]
 }
 
 
 function obtenerLargoDelArray(array) {
   // Devuelve el largo de un array
   // Tu código:
-  console.log(array.length);
+  return array.length
 }
 
 
@@ -192,7 +192,7 @@ function mesesDelAño(array) {
   //Si alguno de los meses no está, devolver: "No se encontraron los meses pedidos"
   // Tu código:
   nuevoArray = []
-  for(i=0, i<array.length; i++){
+  for(i=0; i<array.length; i++){
     if(array[i] === "Enero" || array[i] === "Marzo" || array[i] === "Noviembre"){
       nuevoarray.push(array[i]);
     }
@@ -292,4 +292,5 @@ module.exports = {
   mayorACien,
   breakStatement,
   continueStatement
-};
+}
+}
